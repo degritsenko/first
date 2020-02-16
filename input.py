@@ -1,0 +1,11 @@
+#result = input()
+#print('он ввел', result)
+#name = input('kak tebya zovut:')
+#print('print', name, end='!')
+
+name = input('Kak tebya zovut')
+print(name)
+age = input('skolko let?')
+print(age)
+love = input('do u love python?')
+print(type(love))
