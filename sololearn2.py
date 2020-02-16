@@ -68,6 +68,15 @@ nums = [4, 5, 6]
 msg = "number {0}, {1}, {2} ".format(nums[0], nums[1], nums[2])
 print(msg)
 
+if all([i >1 for i in nums]):
+    print("all larger than one")
+
+
+
 print ("{0}{1}{0}".format("abra","cad"))
 a = "{x}, {y}".format(x = 1, y = 4)
 print (a)
+
+print(max(4,1,5,6,6,7,7))
+print(abs(-132))
+print(sum([4,1,5,6,6,7,7,4535]))
